@@ -1,0 +1,254 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sec1 {
+    background-color: #040466;
+    min-height: 100vh;
+}
+.navbar {
+    background-color: #040458;
+    box-shadow: 2px 5px 15px black;
+    z-index: 1000;
+}
+
+.container-fluid img {
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color:#2278f2 !important;
+}
+
+.navbar-toggler {
+    color: #040458;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+    border-radius: 3px;
+}
+
+.content {
+    position: absolute;
+    top: 250px;
+
+    h1 {
+        font-size: 50px;
+        color: white;
+        width: 40%;
+        margin-left: 30px;
+    }
+
+    p {
+        width: 40%;
+        margin-top: 20px;
+        color: white;
+        margin-left: 30px;
+    }
+
+    .button {
+        padding: 9px 45px;
+        margin-top: 10px;
+        margin-left: 30px;
+        background-color: #67b8ff;
+        border: 2px solid #67b8ff;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background: none;
+        color: white;
+        border: 2px solid #67b8ff;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+.robotimg {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.sec2 h1 {
+    text-align: center;
+    width: 100%;
+    background-color: #67b8ff;
+}
+
+.feature {
+    width: 100%;
+    margin-top: 50px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.sec3 {
+    h1 {
+        text-align: center;
+        width: 100%;
+        background-color: #67b8ff;
+    }
+    .content1 {
+        text-align: center;
+
+        i {
+            color: #040466;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.review {
+    background-color: #a2cff6;
+}
+
+.profile-icon {
+    width: 70px; 
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto; 
+}
+
+.quotation1 {
+    color:#040466;
+}
+
+.quotation2 {
+    color:#040466;
+    text-align: end;
+}
+
+.sec4 {
+    h1 {
+        text-align: center;
+        width: 100%;
+        background-color: #67b8ff;
+    }
+}
+
+.newsletter {
+    margin-top: 40px;
+    background-color:#040466;
+
+    h5 {
+        padding-top: 10px;
+    }
+}
+
+.emailclass {
+    width: 350px;
+}
+.contact-info i, h6 {
+    display: flex;
+    font-size: 20px;
+}
+
+.contact-info h6 {
+    margin-left: 15px;
+    display: block;
+}
+
+.subscribe {
+    margin-top: 70px;
+    display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    .robotimg {
+        right: 0;
+        width: 700px;
+    }
+    .content h1 {
+        font-size: 40px;
+        margin-top: -100px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacting{
+        text-align: center;
+    }
+    .contacting .contact-icons i, h6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .fa-map-marker-alt {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .robotimg {
+        right: 0;
+    }
+    .content h1 {
+        font-size: 40px;
+        margin-top: -200px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .robotimg {
+        right: 0;
+        width: 500px;
+    }
+}
+@media screen and (max-width: 473px) {
+    .robotimg {
+        width: 500px;
+    }
+    .content h1 {
+        font-size: 40px;
+        margin-top: -200px;
+        width: 100%;
+    }
+    .content p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .robotimg {
+        width: 400px;
+        position: absolute;
+        bottom: 0;
+        left: -100px;
+    }
+    .content h1 {
+        font-size: 30px;
+        margin-top: -200px;
+        width: 100%;
+        text-align: center;
+    }
+    .content p {
+        width: 100%;
+        text-align: center;
+    }
+    .content .button {
+        padding: 5px 35px;
+    }
+}
